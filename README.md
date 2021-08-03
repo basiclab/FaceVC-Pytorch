@@ -76,7 +76,7 @@ $ pip install -r requirements.txt
     parser.add_argument('--save_step', type=int, default=1000)
 ```
 
-3. Run main.py
+3. Run ```main.py```
 ```bash
 $ python main.py
 ```
@@ -100,12 +100,12 @@ parser.add_argument('--G_ref_path', type=str, default='', help='model path')
 parser.add_argument('--W_path', type=str, default='', help='model path')
 ```
 
-2. Run test_conversion.py
+2. Run ```test_conversion.py```
 ```
 $ python test_conversion.py
 ```
 
-3. vocoder.py
+3. Run ```vocoder.py```
 ```
 $ python vocoder.py
 ```
