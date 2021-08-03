@@ -7,6 +7,7 @@ The audio demo for FaceVC can be found at https://facevc.github.io/.
 ### Data Preprocessing
 
 For generating face embedding, please refer to https://github.com/timesler/facenet-pytorch.
+
 For generating speaker embedding and spectrogram, please refer to https://github.com/auspicious3000/autovc.
 
 #### In-the-wild data
