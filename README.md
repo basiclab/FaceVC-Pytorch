@@ -2,7 +2,7 @@
 
 This is the official implementation for "Face-based Voice Conversion: Learning the Voice behind a Face" (FaceVC).
 
-The audio demo for FaceVC can be found at https://facevc.github.io/.
+The audio demo for FaceVC can be found at [here](https://facevc.github.io/).
 
 ### Data Preprocessing
 
@@ -87,6 +87,9 @@ $ tensorboard --logdir log --host tunnel_host --port tunnel_port
 ```
 
 ### Testing
+
+Pretrained model can be found at [here](https://drive.google.com/drive/folders/1UWzFtJpNKvnVoz87N7R5c1hhWcPlc_O7?usp=sharing]).
+
 1. Set configuration in ```test_conversion.py``` according to the training stage.
 ```python
 parser.add_argument('--stage', type=int, default=4)
