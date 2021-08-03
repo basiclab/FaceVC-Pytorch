@@ -2,9 +2,13 @@
 
 This is the official implementation for "Face-based Voice Conversion: Learning the Voice behind a Face" (FaceVC).
 
-The audio demo for FaceVC can be found at https://facevc.github.io/
+The audio demo for FaceVC can be found at https://facevc.github.io/.
 
 ### Data Preprocessing
+
+For generating face embedding, please refer to https://github.com/timesler/facenet-pytorch.
+For generating speaker embedding and spectrogram, please refer to https://github.com/auspicious3000/autovc.
+
 #### In-the-wild data
 1. Prepare a data list of all the training utterance path (for making speaker dictionary).
 2. Prepare face embedding / speaker embedding / spectrogram of in-the-wild data.
